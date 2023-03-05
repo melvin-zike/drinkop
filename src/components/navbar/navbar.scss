@@ -1,0 +1,32 @@
+@import "../../app.scss";
+
+.topbar {
+  border: 1px solid #eee;
+}
+.logo-link {
+  margin-left: 170px;
+
+  @include mobile {
+    margin-left: 10px;
+  }
+}
+
+.logo {
+  @include mobile {
+    margin-left: -90px;
+  }
+}
+
+.mobilenav {
+  display: flex;
+  @include mobile {
+    display: flex;
+  }
+}
+
+.regbtn {
+  margin-right: 10px;
+}
+.logbtn {
+  margin-right: 10px;
+}
